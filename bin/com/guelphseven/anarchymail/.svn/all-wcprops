@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/17/trunk/src/com/everysoft/autoanswer
+END
+AutoAnswerBootReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/17/trunk/src/com/everysoft/autoanswer/AutoAnswerBootReceiver.java
+END
+BluetoothHeadset.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/17/trunk/src/com/everysoft/autoanswer/BluetoothHeadset.java
+END
+AutoAnswerPreferenceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/17/trunk/src/com/everysoft/autoanswer/AutoAnswerPreferenceActivity.java
+END
+AutoAnswerNotifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/17/trunk/src/com/everysoft/autoanswer/AutoAnswerNotifier.java
+END
+AutoAnswerIntentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/17/trunk/src/com/everysoft/autoanswer/AutoAnswerIntentService.java
+END
+AutoAnswerReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/17/trunk/src/com/everysoft/autoanswer/AutoAnswerReceiver.java
+END

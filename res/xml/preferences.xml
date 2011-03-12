@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--<PreferenceScreen 	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="first_preferencescreen">
+		<Preference android:key="messages" android:title="@string/messages"/>	
+	</PreferenceScreen>
+
+	
+	<PreferenceScreen > -->
+		<CheckBoxPreference android:key="enabled" android:title="@string/enabled"/>
+		<CheckBoxPreference android:key="file_view" android:title="@string/file_view"/>
+		<ListPreference android:key="which_contacts" android:title="@string/which_contacts"
+			android:entries="@array/which_contacts"	android:entryValues="@array/which_contacts_values"
+			android:defaultValue="all" />
+		<ListPreference android:key="delay" android:title="@string/delay"
+			android:entries="@array/delay"	android:entryValues="@array/delay_values"
+			android:defaultValue="2" />
+		<ListPreference android:key="message_length" android:title="@string/message_length"
+			android:entries="@array/message_length"	android:entryValues="@array/length_values"
+			android:defaultValue="10" />
+		<CheckBoxPreference android:key="use_speakerphone" android:title="@string/use_speakerphone"/>
+		<CheckBoxPreference android:key="headset_only" android:title="@string/headset_only"/>
+		<CheckBoxPreference android:key="no_second_call" android:title="@string/no_second_call"/>
+	<!--</PreferenceScreen>-->
+	<com.guelphseven.anarchymail.preference.AnarchyMailDialogPreference
+		android:key="about" android:title="@string/about_title" android:src="@drawable/icon"
+		android:dialogTitle="@string/about_title" android:dialogMessage="@string/about_message"
+		android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+	<com.guelphseven.anarchymail.preference.AnarchyMailDialogPreference
+		android:key="license" android:title="@string/license_title"
+		android:src="@drawable/icon" android:dialogTitle="@string/license_title"
+		android:dialogMessage="@string/license_message"
+		android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+</PreferenceScreen>
